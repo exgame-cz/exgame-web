@@ -1,4 +1,10 @@
-﻿<!DOCTYPE HTML>
+﻿<?php
+    if ($_SERVER['HTTP_HOST'] === 'exgame.cz') {
+        header('Location: https://www.exgame.cz');
+        exit;
+    }
+?>
+<!DOCTYPE HTML>
 <!--
 	Caminar by TEMPLATED
 	templated.co @templatedco

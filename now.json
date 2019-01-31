@@ -1,5 +1,9 @@
 {
   "version": 2,
   "alias": ["www.exgame.cz", "exgame.cz"],
-  "regions": ["bru1"]
+  "regions": ["bru1"],
+  "builds": [
+    { "src": "*.php", "use": "@now/php" },
+    { "src": "*.html", "use": "@now/static" }
+  ]
 }
