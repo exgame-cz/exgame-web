@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "alias": "www.exgame.cz",
+  "alias": ["www.exgame.cz", "exgame.cz"],
   "regions": ["bru1"]
 }
