@@ -2902,7 +2902,7 @@
 
 	body {
 		background-color: #1e1f23;
-		padding-top: 8rem;
+		padding-top: 3rem;
 	}
 
 		body.is-loading:after {
@@ -2955,7 +2955,7 @@
 	}
 
 		#header > .logo {
-			margin: 0 0 4rem 0;
+			margin: 0 0 2rem 0;
 			padding: 0;
 		}
 
@@ -2977,7 +2977,7 @@
 	@media screen and (max-width: 1280px) {
 
 		body {
-			padding-top: 6rem;
+			padding-top: 3rem;
 			background-attachment: scroll;
 			background-size: auto;
 			background-position: top;
@@ -3059,7 +3059,7 @@
 		}
 
 		.wrapper > header.special {
-			padding: 4rem 2rem;
+			padding: 3rem 2rem;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3087,13 +3087,14 @@
 		}
 
 	.wrapper.style1 .content {
-		padding: 6rem;
+		padding: 3rem 6rem 3rem 6rem;
 	}
 
 		@media screen and (max-width: 1280px) {
 
 			.wrapper.style1 .content {
-				padding: 4rem;
+				//padding: 4rem;
+                padding: 2rem 4rem 2rem 4rem;
 			}
 
 		}
@@ -3101,7 +3102,8 @@
 		@media screen and (max-width: 736px) {
 
 			.wrapper.style1 .content {
-				padding: 2rem;
+				//padding: 2rem;
+                padding: 1rem 2rem 1rem 2rem;
 			}
 
 		}
